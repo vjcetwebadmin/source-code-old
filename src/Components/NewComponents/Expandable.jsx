@@ -3,7 +3,7 @@ import {
   THEME_COLOUR_1,
   THEME_COLOUR_2,
   THEME_COLOUR_3,
-} from "../../constants";
+} from "../../../constants";
 import "./styles/Expandable.css";
 
 export default function Expandable({ data, children }) {
