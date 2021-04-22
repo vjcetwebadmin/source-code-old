@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./CustomOne.css";
 
 class CustomOne extends Component {
   render() {

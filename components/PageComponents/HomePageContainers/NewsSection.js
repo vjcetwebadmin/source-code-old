@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./NewsSection.css";
 import NewsHeading from "../Components/Texts/NewsHeading";
 import NewsCarouselPrimary from "./LocalContainers/NewsCarouselPrimary";
 import NewsCarouselSecOne from "./LocalContainers/NewsCarouselSecOne";

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./FacilitiesList.css";
 import HeadingFive from "../../Components/Texts/HeadingFive";
 import ImageOne from "../../Components/Images/ImageOne";
 

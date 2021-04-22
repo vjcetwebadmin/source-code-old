@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import "./NewsCarousel.css";
 import NewsImage from "./NewsImage";
 //import CarouselCaption from "react-bootstrap/CarouselCaption";
 

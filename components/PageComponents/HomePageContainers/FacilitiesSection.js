@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./FacilitiesSection.css";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import BodyOne from "../Components/Texts/BodyOne";
 import FacilitiesList from "./LocalContainers/FacilitiesList";

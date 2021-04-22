@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./DepartmentSection.css";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import BodyOne from "../Components/Texts/BodyOne";
 import DepartmentList from "./LocalContainers/DepartmentList";

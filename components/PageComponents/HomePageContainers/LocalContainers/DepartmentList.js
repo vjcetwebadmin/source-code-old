@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./DepartmentList.css";
 import BodyTwo from "../../Components/Texts/BodyTwo";
 import HeadingThree from "../../Components/Texts/HeadingThree";
 import HeadingFive from "../../Components/Texts/HeadingFive";

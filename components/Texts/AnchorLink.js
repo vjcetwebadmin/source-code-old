@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./AnchorLink.css";
 // import {NavLink as Link} from "react-router-dom"
 
 class AnchorLink extends Component {
