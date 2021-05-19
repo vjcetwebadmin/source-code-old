@@ -43,6 +43,11 @@ class FacilitiesSection extends Component {
     image: "idea.svg",
     title: "V-BIC"
   };
+  FacilityListSix = {
+    instanceID: "FacilityListSix",
+    image: "bus1.gif",
+    title: <a href="https://vjcet.org/#/facilities/transportation" target="_blank" rel="noopener noreferrer"><font color="000000">Transportation</font></a>
+  };
   render() {
     const { instanceID } = this.props.data;
 
@@ -56,6 +61,7 @@ class FacilitiesSection extends Component {
           <a href="https://vjcet.org/#/facilities/ccc" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4"><FacilitiesList data={this.FacilityListThree} /></font></a>
           <a href="https://vjcet.org/#/facilities/campusamenities" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4"><FacilitiesList class="circle-icon" data={this.FacilityListFour} /></font></a>
           <a href="https://vjcet.org/#/ed/v-bic" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4"><FacilitiesList data={this.FacilityListFive} /></font></a>
+          <a href="https://vjcet.org/#/facilities/transportation" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4"><FacilitiesList data={this.FacilityListSix} /></font></a>
         </div>
       </div>
     );

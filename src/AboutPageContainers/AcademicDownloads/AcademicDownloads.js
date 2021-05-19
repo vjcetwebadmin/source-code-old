@@ -19,7 +19,8 @@ class ResourcesGroup extends Component {
     listID: "Three",
     title: "First Year",
     icon: "Icons/firstyearsyllabuslogo.svg",
-    filePath: "https://vjcetwebadmin.github.io/downloads/firstyearsyllabus.zip"
+    /*filePath: "https://vjcetwebadmin.github.io/downloads/firstyearsyllabus.zip"*/
+    filePath: "ftp://202.88.251.252/Website/downloads/firstyearsyllabus.zip"
   };
 
   ResourceListEight = {
@@ -27,7 +28,7 @@ class ResourcesGroup extends Component {
     listID: "Four",
     title: "Civil Engineering",
     icon: "Icons/civilsyllabuslogo.png",
-    filePath: "https://vjcetwebadmin.github.io/downloads/cesyllabus.zip"
+    filePath: "ftp://202.88.251.252/Website/downloads/cesyllabus.zip"
 
   };
 
@@ -36,7 +37,7 @@ class ResourcesGroup extends Component {
     listID: "Five",
     title: "Computer Science & Engineering",
     icon: "Icons/csesyllabuslogo.svg",
-    filePath: "https://vjcetwebadmin.github.io/downloads/csesyllabus.zip"
+    filePath: "ftp://202.88.251.252/Website/downloads/csesyllabus.zip"
 
   };
 
@@ -45,7 +46,7 @@ class ResourcesGroup extends Component {
     listID: "Six",
     title: "Electronics & Communications Engineering",
     icon: "Icons/ecesyllabuslogo.svg",
-    filePath: "https://vjcetwebadmin.github.io/downloads/ecesyllabus.zip"
+    filePath: "ftp://202.88.251.252/Website/downloads/ecesyllabus.zip"
   };
 
   ResourceListFive = {
@@ -53,7 +54,7 @@ class ResourcesGroup extends Component {
     listID: "Seven",
     title: "Electrical & Electronics Engineering",
     icon: "Icons/eeesyllabuslogo.svg",
-    filePath: "https://vjcetwebadmin.github.io/downloads/eeesyllabus.zip"
+    filePath: "ftp://202.88.251.252/Website/downloads/eeesyllabus.zip"
   };
 
   ResourceListSix = {
@@ -61,7 +62,7 @@ class ResourcesGroup extends Component {
     listID: "Eight",
     title: "Information Technology",
     icon: "Icons/itsyllabuslogo.png",
-    filePath: "https://vjcetwebadmin.github.io/downloads/itsyllabus.zip"
+    filePath: "ftp://202.88.251.252/Website/downloads/itsyllabus.zip"
 
   };
   ResourceListNine = {
@@ -69,7 +70,7 @@ class ResourcesGroup extends Component {
     listID: "Nine",
     title: "Mechanical Engineering",
     icon: "Icons/mesyllabuslogo.svg",
-    filePath: "https://vjcetwebadmin.github.io/downloads/mesyllabus.zip"
+    filePath: "ftp://202.88.251.252/Website/downloads/mesyllabus.zip"
 
   };
   ResourceListOne = {

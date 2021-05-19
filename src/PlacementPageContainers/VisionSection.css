@@ -1,0 +1,94 @@
+.VisionSection {
+  padding: 10px 20px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: "b";
+  padding-top: 2%;
+}
+
+.VisionSectionA {
+  grid-area: a;
+  display: none;
+}
+.VisionSectionABottom {
+  grid-area: d;
+  grid-template-columns: 100%;
+}
+
+.VisionSectionB {
+  grid-area: b;
+}
+
+.VisionSectionC {
+  grid-area: c;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .VisionSection {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .VisionSectionA {
+    padding: 5% 0%;
+    display: inline-block;
+
+  }
+
+  .VisionSection {
+    padding: 1% 0% 3% 0%;
+
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "a a"
+      "b c"
+      "d d";
+  }
+  .VisionSectionA {
+    padding: 2% 2% 1% 2%;
+ 
+  }
+  .VisionSectionABottom {
+    padding: 3% 3% 1% 3%;
+  }
+  .VisionSectionB {
+   
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+
+  .VisionSectionC {
+    display: inline-block;
+    padding-right: 10%;
+    padding-left: 5%;
+  }
+
+  .VisionSectionB p {
+    text-align:justify;
+  }
+
+  .VisionSectionB h3 {
+    text-align: justify;
+  }
+
+  .VisionSectionB h1 {
+    text-align: justify;
+    color: #0f0f0f;
+  }
+
+  .VisionSectionC p {
+    text-align: justify;
+  }
+
+  .VisionSectionC h3 {
+    text-align: justify;
+  }
+
+  .VisionSectionC h1 {
+    text-align: justify;
+    color: #0f0f0f;
+  }
+}

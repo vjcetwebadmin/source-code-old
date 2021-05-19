@@ -1,29 +1,32 @@
 import React from "react";
 
 import "../Components/Tables/tableformat.css";
-
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
-import Header from "../Components/Header&Footer/Header";
-import Footer from "../Components/Header&Footer/Footer";
-import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import HeadingTwo from "../Components/Texts/HeadingTwo";
-//import HeadingFour from "../Components/Texts/HeadingFour";
+import HeadingOne from "../Components/Texts/HeadingOne";
 import HeadingThree from "../Components/Texts/HeadingThree";
 import "../Components/Images/gallery.css";
-import Expandable from "../Components/NewComponents/Expandable";
-import Page from "../Components/NewComponents/Page";
+import "./Research.css"
 
 class iqac extends React.Component {
+  state = { showMenu: false };
+  openMenu = () => {
+      console.log("opening Menu");
+      this.setState({ showMenu: true });
+  };
+  closeMenu = () => {
+      this.setState({ showMenu: false });
+  };
+
   NsslogoImage = {
     instanceID: "NsslogoImage",
     image: "ProfessionalBodies/NSS.png",
     width: "50%",
   };
 
-  NssTitle = {
-    instanceID: "NssTitle",
-    title: "Internal Quality Assurance Cell  (IQAC) ",
-  };
+  ResearchHeading = {
+    instanceID: "ResearchHeading",
+    title: "Profile"
+  }
 
   AboutNssContent = {
     instanceID: "AboutNssContent",
@@ -86,52 +89,15 @@ class iqac extends React.Component {
   };
 
   render() {
-    const IQAC_Data = [
-      {
-        year: "2020-2021",
-        events: [
-          {
-            date: "13-04-2020",
-            minutes: "",
-            action: "",
-          },
-          {
-            date: "27-01-2020",
-            minutes: "",
-            action: "",
-          },
-        ],
-        annualReport: "",
-      },
-      {
-        year: "2019-2020",
-        events: [
-          {
-            date: "06-11-2019",
-            minutes: "",
-            action: "",
-          },
-          {
-            date: "23-07-2019",
-            minutes: "",
-            action: "",
-          },
-        ],
-        annualReport: "",
-      },
-    ];
-
     return (
-      <Page>
-        {/*    <p align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p>  */}
-        <div class="absolute"></div>
+      
 
-        <div className="contain">
-          <HeadingTwo data={this.NssTitle} className="Heading" />
-          <Expandable data={IQAC_Data} />
-
-          <BodyOneJustified data={this.AboutNssContent} />
-          <br />
+     <div className="HomePage">
+      
+       <HeadingOne data={this.ResearchHeading}></HeadingOne>    
+      
+        <BodyOneJustified data={this.AboutNssContent} />
+        <br />
           <table id="tableformat">
             <tr>
               <td>1</td>
@@ -249,9 +215,14 @@ class iqac extends React.Component {
               <td> Alumni Representative</td>
             </tr>
           </table>
+          <br />
+        
           <BodyOneJustified data={this.aboutiqaccontent1} />
           <br />
+          <br />
+          <div className="inner-para">
           <HeadingThree data={this.criteria1heading} className="Heading" />
+         
           <p>
             <b>Coordinator:Mrs. Shine George</b>, HOD CE
           </p>
@@ -276,8 +247,7 @@ class iqac extends React.Component {
             <li>Checking Course plan and delivery</li>
             <li>Submission of report to the IQAC in the prescribed format</li>
           </ol>
-
-          <br />
+           <br />
           <HeadingThree data={this.criteria2heading} className="Heading" />
           <p>
             <b>Coordinator:Mrs Ann Nitha Sabu, S &H</b>
@@ -703,9 +673,9 @@ class iqac extends React.Component {
           <p>Viswajyothi College of Engineering and Technology</p>
           <p>anoop4281@gmail.com</p>
           <p>9497189607</p>
-        </div>
-      </Page>
-    );
+          </div>
+          </div>
+     );
   }
 }
 

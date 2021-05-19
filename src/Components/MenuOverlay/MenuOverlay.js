@@ -6,7 +6,7 @@ class MenuOverlay extends Component {
   constructor() {
     super();
     this.state = {
-      menuItem1: true,
+      menuItem1: true,      
       menuItem2: true,
       menuItem3: true,
       menuItem4: true,
@@ -14,7 +14,8 @@ class MenuOverlay extends Component {
       menuItem6: true,
       menuItem8: true,
       menuItem9: true,
-      menuItem10: true
+      menuItem10: true,
+      menuItem11: true
 
     };
   }
@@ -69,13 +70,19 @@ class MenuOverlay extends Component {
       menuItem10: !this.state.menuItem10
     });
   }
-
+  menuItem11() {
+    this.setState({
+      menuItem11: !this.state.menuItem11
+    });
+  }
 
   render() {
     var menuItem1Style = {
       display: this.state.menuItem1 ? "none" : "grid"
     };
-
+    var menuItem11Style = {
+      display: this.state.menuItem11 ? "none" : "grid"
+    };
     var menuItem2Style = {
       display: this.state.menuItem2 ? "none" : "grid"
     };
@@ -103,6 +110,9 @@ class MenuOverlay extends Component {
     };
     var menuItem10Style = {
       display: this.state.menuItem10 ? "none" : "grid"
+    };
+    var menuItem11Style = {
+      display: this.state.menuItem11 ? "none" : "grid"
     };
 
 
@@ -162,12 +172,29 @@ class MenuOverlay extends Component {
               >
                 Affiliations
             </Link>
+            <div className="wseparator"></div>
+              <Link
+                to="/about/mandatorydisclosure"
+                className="MenuOverlaySubLinks"
+              >
+                Mandatory Disclosure
+            </Link>
+            <div className="wseparator"></div>
+              <Link
+                to="/about/RTI"
+                className="MenuOverlaySubLinks"
+              >
+                Right To Information
+            </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/contact">
                 Contact Us
               </Link>
             </div>
           </div>
+          <Link id="menuItem11" className="MenuOverlayItem" to="/mockt">
+            KEAM Mock Test
+          </Link>
           <div id="menuItem9">
             <div
               className="MenuOverlayItem"
@@ -178,6 +205,7 @@ class MenuOverlay extends Component {
 
             <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem9Style}>
+              <div className="wseparator"></div>
               <a href="https://admission.vjcet.ac.in/" className="MenuOverlaySubLinks">B.Tech</a>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/admission/mtech">
@@ -210,7 +238,6 @@ class MenuOverlay extends Component {
                 VJCET Login
             </a>
               <div className="wseparator"></div>
-
               <a href="http://moodle.vjcet.ac.in" className="MenuOverlaySubLinks">
                 Moodle
             </a>
@@ -218,10 +245,10 @@ class MenuOverlay extends Component {
               <a href="https://alumni.vjcet.ac.in/" className="MenuOverlaySubLinks">
                 Alumni Login
             </a>
-
-              {/* <Link className="MenuOverlaySubLinks" to="/about">
-                Moodle
-              </Link> */}
+            <div className="wseparator"></div>
+              <a href="https://vjcet.org/#/newsfive" className="MenuOverlaySubLinks">
+                Fee Payment
+            </a>
 
             </div>
           </div>
@@ -236,8 +263,12 @@ class MenuOverlay extends Component {
 
             <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem3Style}>
+              <Link className="MenuOverlaySubLinks" to="/departments/admin">
+                  Administration
+              </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/ce">
-                Civil Engineering
+                  Civil Engineering
               </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/cse">
@@ -398,7 +429,7 @@ class MenuOverlay extends Component {
               className="MenuOverlayItem"
               onClick={this.menuItem10.bind(this)}
             >
-              <Link to="#">E&D</Link>
+              <Link to="#">III & ED</Link>
             </div>
 
             <div className="separator"></div>
@@ -413,6 +444,10 @@ class MenuOverlay extends Component {
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/ed/iiic">
                 IIIC
+              </Link>
+              <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/ed/nisp">
+                NISP
               </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/ed/unai">

@@ -28,11 +28,11 @@ ActivitiesHeading = {
   };
   Features2 = {
     instanceID: "Features2",
-    title: "Our faculty chapter consists of 110 lifetime members and student chapter has consist of 882 student members."
+    title: "Our faculty chapter consists of 110 lifetime members and student chapter consists of 788 student members."
   };
   Features3 = {
     instanceID: "Features3",
-    title: "A Student membership campaign was conducted in the first week of August 2018 and 332 students from various departments has joined ISTE students chapter."
+    title: "A Student membership campaign was conducted in the first week of January 2021 and 204 students from various departments has joined ISTE students chapter."
   };
 
   render() {
@@ -52,8 +52,8 @@ ActivitiesHeading = {
                             <tr><th>POST</th><th>NAME</th></tr>
                             <tr><td>Chariman – ISTE Chapter</td><td>Dr. K.K Rajan, Principal</td></tr>
                             <tr><td>Secretary</td><td>Mr. Prince Kurian, AP IT</td></tr>
-                            <tr><td>Jn. Secretary</td><td>Mr. Krishnendu K, AP ECE</td></tr>
-                            <tr><td>Treasurer &Student Advisor</td><td>Ms. Sabitha Raju, AP, CSE</td></tr>
+                            <tr><td>Jn. Secretary</td><td>Ms. Sabitha Raju, AP, CSE</td></tr>
+                            <tr><td>Treasurer &Student Advisor</td><td>Ms. Santhanu P Mohan, AP, IT</td></tr>
           </table>
                             <HeadingThree data={this.ActivitiesHeading} /> 
                             <table id="tableformat">                           
@@ -69,8 +69,12 @@ ActivitiesHeading = {
                             <tr><td>9</td><td>Workshop on BMW by Mr.Mirash Francis,BMW EVM AUTOKRAFT KOCHI</td><td>20/3/2019&21/3/2019</td></tr>
                             <tr><td>10</td><td>Technical Talk in Bug Bounty programme.</td><td>20/3/2019&21/3/2019</td></tr>
                             <tr><td>11</td><td>Coding competition in C,Java  language.</td><td>20/3/2019&21/3/2019</td></tr>
-                            <tr><td>12</td><td>Code Master Coding Competition</td><td>29-03-2019</td></tr>
-                            
+                            <tr><td>12</td><td>Code Master Coding Competition</td><td>29/03/2019</td></tr>
+                            <tr><td>13</td><td>Redhat csa-the big step to your it career by Mr.JosephJob,Chief Technology Officer,SpectrumSofttech Solutions Pvt. Ltd.</td><td>22/08/2020</td></tr>
+                            <tr><td>14</td><td>Demistifying the road ahead - bursting the b-tech myths by Mr. Mridul George, Senior Software Developer, Nielson.</td><td>06/11/2020</td></tr>
+                            <tr><td>15</td><td>Stepping into the world of sap by Mr. P Harish Mohan, Senior SAP consultant, E&Y Global Ltd.</td><td>30/01/2021</td></tr>
+                            <tr><td>16</td><td>Entreprenuership and decision making by Ms. Krishna Rajan Nair, Lead- Work force management team UST GLOBAL.</td><td>13/03/2021</td></tr>
+                            <tr><td>17</td><td>How to become a succesfull engineer by Mr.Sivdas T Nair, Asst. Prof, AD Dept,VJCET.</td><td>23/03/2021</td></tr>
                             </table>
 
                             

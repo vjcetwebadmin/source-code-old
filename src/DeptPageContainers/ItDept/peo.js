@@ -14,12 +14,12 @@ class PEO extends Component {
   peoListTwo = {
     instanceID: "peoListTwo",
     title:
-      "1.	Graduates shall excel in programming skills, so as to make them professionally competent, innovative and socially uplifting the standard of life."
+      "1.	Graduates shall excel in programming and analytical skills enabling them to be  professionally competent and find solutions to software based problems."
   };
   peoListThree = {
     instanceID: "peoListThree",
     title:
-      "2.	Graduates shall have social values, sharpening their analytical skills to find solutions to the existing software problems."
+      "2.	Graduates shall have social and ethical values making them socially more acceptable and in being instrumental in uplifting quality of life."
   };
   peoListFour = {
     instanceID: "peoListFour",
@@ -43,24 +43,24 @@ class PEO extends Component {
   psoListTwo = {
     instanceID: "psoListTwo",
     title:
-      " 1.  Shall have knowledge on smart technologies in the field of IT and are well equipped with cutting edge technologies and concepts."
+      " 1.  Graduates shall have knowledge on smart technologies in the field of IT and are well equipped with cutting edge technologies and concepts."
   };
   psoListThree = {
     instanceID: "psoListThree",
     title:
-      " 2. Shall bring in the advantages of technology into the society, so that it will accelerate the development and betterment of people."
+      " 2. Graduates shall bring in the advantages of technology into the society, so that it will accelerate the development and betterment of people."
   };
 
   render() {
     return (
       <div className="PEO&PSO" id="peo&pso">
         <HeadingOne data={this.peoHeading} />
-        <Bodythree data={this.peoListOne} />
+        {/*<Bodythree data={this.peoListOne} />*/}
         <Bodythree data={this.peoListTwo} />
         <Bodythree data={this.peoListThree} />
         <Bodythree data={this.peoListFour} />
         <HeadingOne data={this.psoHeading} />
-        <Bodythree data={this.psoListOne} />
+        {/*<Bodythree data={this.psoListOne} />*/}
         <Bodythree data={this.psoListTwo} />
         <Bodythree data={this.psoListThree} />
       </div>

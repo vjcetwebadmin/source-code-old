@@ -33,7 +33,7 @@ class DropDownAb extends Component {
   render() {
     return (
       <div className="dropdown">
-        <span>III&ED</span>
+        <span>III & ED</span>
         <div className="dropdown-content">
           <p>
             <Link
@@ -61,7 +61,7 @@ class DropDownAb extends Component {
           </p>
           <p>
             <Link
-              to="/nisp"
+              to="ed/nisp"
               className="patch1"
             >
               NISP

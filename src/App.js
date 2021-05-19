@@ -41,10 +41,12 @@ import transportation from "./FacilitiesPageContainers/Transportation/transporta
 import NBA from "./Pages/NBA";
 import KeyFunc from "./Pages/KeyFunc";
 import ContactUs from "./ContactUsContainers/ContactUs";
+import mocktest from "./ContactUsContainers/MockTest";
 import Academics from "./Pages/Academics";
 import VisionPage from "./Pages/VisionPage";
 import Affliations from "./Pages/Affliations";
 import Mandatorydisclosure from "./Pages/mandatorydisclosure";
+import RTI from "./Pages/RTI";
 import SyllabusPage from "./Pages/SyllabusPage";
 import Research from "./ResearchPageContainers/csdepartment";
 import Mtech from "./Pages/Mtech"
@@ -66,12 +68,15 @@ import Iedc from "./EdPageContainers/IEDC/csdepartment";
 import Vbic from "./EdPageContainers/Vbic";
 import Iiic from "./EdPageContainers/IIIC/csdepartment";
 import Unai from "./EdPageContainers/Unai";
-import iqac from "./iqac/profile";
+import Iqacfull from "./iqac/csdepartment";
 import Notify from "./Components/NewComponents/Notify";
 import NotiPage from './Pages/Notifications';
 import NISP from "./Pages/NISP";
 import ErrorPage from "./Pages/ErrorPage";
 import Ict from "./CampusLifePageContainers/ProfessionalBodies/ICT";
+
+
+import NAAC_C1_P1 from "./NAAC/Nac_C1_P1";
 
 class App extends Component {
 
@@ -305,14 +310,14 @@ class App extends Component {
           {
             instanceID: "Cefaculty24",
             image: "Allstaffphoto/CE/FAC/fac24.jpg", 
-            width: "65%", 
+            width: "50%", 
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC144" target="_blank" rel="noopener noreferrer">Dr. Grasius  M. G</a>,
             content: "Professor"
           },
           {
             instanceID: "Cefaculty24",
             image: "Allstaffphoto/CE/FAC/RAVINDRANATH.jpg", 
-            width: "65%", 
+            width: "50%", 
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC145" target="_blank" rel="noopener noreferrer">Dr. E. Ravindranath</a>,
             content: "Professor"
           },         
@@ -343,7 +348,7 @@ class App extends Component {
             image: "Allstaffphoto/CE/FAC/40.jpg",
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC105" target="_blank" rel="noopener noreferrer">Mrs. Minu C Joy</a>,
-            content: "Assistant Professor"
+            content: "Assistant Professor(on Leave)"
           },
           {
             instanceID: "Cefaculty7",
@@ -392,7 +397,7 @@ class App extends Component {
             image: "Allstaffphoto/CE/FAC/283.jpg",
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC118" target="_blank" rel="noopener noreferrer">Mrs. Nivya Mary Abraham</a>,
-            content: "Assistant Professor(on Leave-Ph.D)"
+            content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty15",
@@ -433,8 +438,8 @@ class App extends Component {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/385.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC137" target="_blank" rel="noopener noreferrer">Mrs. Nisa Ann Mathew</a>,
-            content: "Assistant Professor"
+            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC137" target="_blank" rel="noopener noreferrer">Mrs. Nisa Ann Mathew </a>,
+            content: "Assistant Professor(on Leave)"
           },
           {
             instanceID: "Cefaculty22",
@@ -707,6 +712,7 @@ class App extends Component {
               <Route exact path="/about/vision" component={VisionPage} />
               <Route exact path="/about/affliations" component={Affliations} />
               <Route exact path="/about/mandatorydisclosure" component={Mandatorydisclosure} />
+              <Route exact path="/about/RTI" component={RTI} />
               <Route exact path="/academics/courses-offered" component={Academics} />
               <Route exact path="/academics/syllabus" component={SyllabusPage} />
               <Route exact path="/academics/honours" component={honoursPage} />
@@ -754,6 +760,7 @@ class App extends Component {
               <Route exact path="/facilities/campusamenities" component={campusamenities} />
               <Route exact path="/facilities/transportation" component={transportation} />
               <Route exact path="/contact" component={ContactUs} />
+              <Route exact path="/mockt" component={mocktest} />              
               <Route exact path="/r&d" component={Research} />
               <Route exact path="/admission/mtech" component={Mtech} />
               <Route exact path="/admission/phd" component={Phd} />
@@ -770,14 +777,16 @@ class App extends Component {
               <Route exact path="/newsnine" component={newsnine} />
               <Route exact path="/newsten" component={Newsten} />
               <Route exact path="/newsfee" component={Newsfee} />
-
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
               <Route exact path="/ed/iiic" component={Iiic} />
               <Route exact path="/ed/unai" component={Unai} />
-              <Route exact path="/iqac" component={iqac} />
-              <Route exact path="/nisp" component={NISP} />
-              <Route component={ErrorPage} />
+              <Route exact path="/iqac" component={Iqacfull} />
+              <Route exact path="/ed/nisp" component={NISP} />
+
+              <Route exact path="/NAAC/NAAC_C1_P1" component={NAAC_C1_P1} />
+
+              <Route component={ErrorPage} /> 
             </Switch>
           </React.Fragment>
         </Router>

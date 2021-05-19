@@ -84,6 +84,14 @@ class DropDownAb extends Component {
               Mandatory Disclosure
             </Link>
           </p>
+          <p>
+            <Link
+              to="/about/RTI"
+              className="patch1"
+            >
+              Right To Information
+            </Link>
+          </p>
         </div>
       </div>
     );

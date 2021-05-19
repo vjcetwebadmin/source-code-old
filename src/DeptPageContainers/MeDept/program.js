@@ -9,7 +9,7 @@ class Program extends Component {
   };
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
-    title: "B Tech Mechanical Engineering was started in the year 2002 with an annual intake of 60 students which was expanded to 120 students in the year 2003. In 2011 M tech in industrial engineering and management was started with an annual intake of 18 students. Currently the department offers undergraduate program in Mechanical Engineering with an annual intake of 60 students. In a very short spell the department could emerge with several university Ranks. The department has also signed MOUs with core a companies which helps to develop industry department interactions. The program was accredited by NBA in 2018 for a period of three years."
+    title: "B Tech Mechanical Engineering was started in the year 2002 with an annual intake of 60 students which was expanded to 120 students in the year 2003. In 2011 M tech in industrial engineering and management was started with an annual intake of 18 students. Currently the department offers undergraduate program in Mechanical Engineering with an annual intake of 60 students. In a very short spell the department could emerge with several university Ranks. The department has also signed MOUs with core companies which helps to develop industry department interactions. The program was accredited by NBA in 2018 for a period of three years."
   };
   
 

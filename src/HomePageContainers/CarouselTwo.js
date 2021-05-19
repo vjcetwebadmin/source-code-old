@@ -17,7 +17,7 @@ class CarouselTwo extends Component {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newstwo"  rel="noopener noreferrer"><font color="FFFFF" size="4">Covid 19, Institutional Plan and SOP</font></a>
     },    
-    {
+    /*{
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsone"  rel="noopener noreferrer"><font color="FFFFF" size="4">KTU 2016-2020 Batch Final Semester Results Published</font></a>
     },
@@ -27,14 +27,12 @@ class CarouselTwo extends Component {
     }, 
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="http://117.239.154.84:8001/ktuexam/index.html"  rel="noopener noreferrer"><font color="FFFFF" size="4">KTU B.Tech Examination</font></a>
-    },
-   
+      title: <a href="https://vjcet.org/#/newsnine"  rel="noopener noreferrer"><font color="FFFFF" size="4">Congratulations to the Placed Students - 2016-2020 Batch</font></a>
+    },*/
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsnine"  rel="noopener noreferrer"><font color="FFFFF" size="4">Congratulations to the Placed Students - 2016-2020 Batch</font></a>
-    },
-    
+      title: <a href="http://117.239.154.84:8001/ktuexam/index.html"  rel="noopener noreferrer"><font color="FFFFF" size="4">KTU B.Tech Examination</font></a>
+    },  
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newssix"  rel="noopener noreferrer"><font color="FFFFF" size="4">Access to Study Materials- Video Lectures, PPTs & PDFs</font></a>

@@ -14,7 +14,7 @@ class Profile extends Component {
 
   Features2 = {
     instanceID: "Features2",
-    title: "•	Board of Research Nuclear Science (BRNS), under the Department of Atomic Energy, sanctioned two research projects of worth Rs.63 lakhs and are in progress."
+    title: "•	Board of Research Nuclear Science (BRNS), under the Department of Atomic Energy, sanctioned two research projects of worth Rs.63 lakhs."
   };
   Features3 = {
     instanceID: "Features3",
@@ -30,7 +30,11 @@ class Profile extends Component {
   };
   Features6 = {
     instanceID: "Features6",
-    title: "•	Encouraging sustainable development, department runs a 50kWp on grid - solar power plant in the campus"
+    title: "•	Encouraging sustainable development, department runs a 50kWp on grid - solar power plant in the campus."
+  };
+  Features7 = {
+    instanceID: "Features7",
+    title: "The department offer excellent infrastructure with fully equiped laboratories for an intake of 60 students. The highly qualified faculty helps students to score excellent results. The department strongly emphasizes on developing the quality of faculty and students through several value added programmes."
   };
 
   render() {
@@ -38,6 +42,7 @@ class Profile extends Component {
       <div className="Profile" id="profile">
         <HeadingOne data={this.ProfileHeading} />
         <div className="bodyContainer">
+          <p><BodyOneJustified data={this.Features7} /></p>
           <p><BodyOneJustified data={this.Features1} /></p>
           <p><BodyOneJustified data={this.Features2} /></p>
           <p><BodyOneJustified data={this.Features3} /></p>

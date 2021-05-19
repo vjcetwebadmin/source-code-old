@@ -78,17 +78,13 @@ class Mandatorydisclosure extends React.Component {
 
                 <div className="contain">
                     <HeadingOne data={this.CCCNATitle} className="Heading" />
-                    
-                    
-                    <iframe src="https://vjcet.org/downloads/about/Mandatory2021.pdf" width="100%" height="800" title="Campus Map" align="center"></iframe>
+                     <iframe src="https://vjcet.org/downloads/about/Mandatory2021.pdf" width="100%" height="800" title="Campus Map" align="center"></iframe>
                    <br />
-                   
-                   
-
                 </div>
-                <Footer data={this.HomePageFooter} />
+                <p align="center"><h2><a href="https://vjcet.org/downloads/about/Attachments.pdf" target="_blank" rel="noopener noreferrer"> Attachments </a></h2> </p>
+                <Footer data={this.HomePageFooter} /> 
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
-
+                
             </React.Fragment>
         )
     }

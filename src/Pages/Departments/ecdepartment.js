@@ -61,7 +61,7 @@ class EcDepartment extends Component {
 
   HeadingSectionDescription = {
     instanceID: "HeadingSectionDescription",
-    title: " Integrating the world with digital transformation"
+    title: "Integrating the world with digital transformation"
   };
   CseImg = {
     instanceID: "CseImg",
@@ -88,7 +88,8 @@ class EcDepartment extends Component {
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <HeadingOne data={this.HeadingSectionTitle} />
-        <BodyOne data={this.HeadingSectionDescription} />
+        {/*<BodyOne data={this.HeadingSectionDescription}/>*/}
+        <h2>Integrating the world with digital transformation</h2>
         <ImageOne data={this.CseImg} />
         <SideNav />
         <Footer data={this.HomePageFooter} />

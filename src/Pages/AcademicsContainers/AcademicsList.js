@@ -27,7 +27,7 @@ class AcademicsList extends Component {
   }
   AcademicsText = {
     instanceID: "AcademicsText",
-    title: "Viswajyothi College of Engineering & Technology has 6 academic departments which offer four Post Graduate and seven Under Graduate Engineering Degree Programs. "
+    title: "Viswajyothi College of Engineering & Technology has 7 academic departments which offer four Post Graduate and seven Under Graduate Engineering Degree Programs. "
   }
 
   PGCourse = {
@@ -121,6 +121,12 @@ class AcademicsList extends Component {
               <BodyOneJustified data={this.UGCourse} />
             </p>
             <ul>
+            <li>
+                <p>
+                  <BodyOneJustified data={this.UGCourse7} />
+                 
+                </p>
+              </li>
               <li>
                 <p>
                   <BodyOneJustified data={this.UGCourse1} />
@@ -150,13 +156,7 @@ class AcademicsList extends Component {
                 <p>
                   <BodyOneJustified data={this.UGCourse6} />
                 </p>
-              </li>
-              <li>
-                <p>
-                  <BodyOneJustified data={this.UGCourse7} />
-                 
-                </p>
-              </li>
+              </li>            
 
             </ul>
           </div>

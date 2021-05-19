@@ -31,7 +31,8 @@ class ResourcesGroup extends Component {
     listID: "Three",
     title: "AICTE Documents",
     icon: "Icons/icon3.svg",
-    filePath: "https://vjcetwebadmin.github.io/downloads/AICTE.pdf"
+    /*filePath: "https://vjcetwebadmin.github.io/downloads/AICTE.pdf"*/
+    filePath: "ftp://202.88.251.252/Website/downloads/Mandatory2021.pdf"
 
   };
 
@@ -40,7 +41,7 @@ class ResourcesGroup extends Component {
     listID: "Four",
     title: "Audited Financial Statements",
     icon: "Icons/icon4.svg",
-    filePath: "https://vjcetwebadmin.github.io/downloads/Financialstatements.zip"
+    filePath: "ftp://202.88.251.252/Website/downloads/Financialstatements.zip"
   };
 
   ResourceListFive = {
@@ -59,6 +60,14 @@ class ResourcesGroup extends Component {
     filePath: "https://vjcetwebadmin.github.io/downloads/AcedemicSchema.pdf"
 
   };
+  ResourceListSeven = {
+    instanceID: "ResourceListSeven",
+    listID: "Seven",
+    title: "VJCET Undertaking",
+    icon: "Icons/icon5.svg",
+    filePath: "https://vjcetwebadmin.github.io/downloads/Undertaking.pdf"
+
+  };
 
   render() {
     return (
@@ -71,6 +80,7 @@ class ResourcesGroup extends Component {
           <ResourcesList data={this.ResourceListFour} />
           <ResourcesList data={this.ResourceListFive} />
           <ResourcesList data={this.ResourceListSix} />
+          <ResourcesList data={this.ResourceListSeven} />
         </div>
       </div>
     );

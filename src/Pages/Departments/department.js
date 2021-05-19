@@ -75,7 +75,8 @@ class Department extends Component {
             <div className="HomePage">
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
                 <HeadingOne data={HeadingSectionTitle} />
-                <BodyOne data={HeadingSectionDescription} />
+                {/*<BodyOne data={HeadingSectionDescription} />*/}
+                <h2>Building future on foundations of excellence</h2>
                 <ImageOne data={CseImg} />
                 <div>
                     <SideNav data={SideNavData} />

@@ -1,5 +1,5 @@
 import React from "react";
-import HeadingTwo from "../../Components/Texts/HeadingTwo";
+//import HeadingTwo from "../../Components/Texts/HeadingTwo";
 //import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
@@ -8,7 +8,7 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 //import ImageOne from "../../Components/Images/ImageOne";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
@@ -45,7 +45,7 @@ class Newsfive extends React.Component {
     };
     NewsTitle1 = {
         instanceID: "NewsTitle1",
-        title: "NOTICE"
+        title: "NOTICEs"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -95,18 +95,23 @@ class Newsfive extends React.Component {
                         </a>
                     </div>
                     
-                   <p>For payment through <span className="text_red">NEFT</span>, Bank Account Details,</p>
+                    <p>For payment through <span className="text_red">NEFT</span>, Bank Account Details,</p>
 
-                   <p>Name of the Account Holder : <b>PRINCIPAL</b></p>
+                    <p>Name of the Account Holder : <b>PRINCIPAL</b></p>
                     <p>Name of the Bank - <b>South Indian Bank</b></p>
                     <p>Name of the Branch - <b>Vazhakulam - IFSC Code : SIBL0000335</b></p>
                     <p>Account Number : <b>0335073000000155</b></p>
                     <p><span className="text_red">Very Important : Please mention Admission Number of the student in remarks.</span></p><br></br>
                     <p><span className="text_red">SIB Online Fee Payment </span> <a href="https://southindianbank.in/feepayment/" target="_blank">Click Here </a></p>
-                    <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
-                    
+                    <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p><br></br>
+                    <p>For Payment Related Queries Contact : <b> Mrs. Jismy George - 9349944361</b></p>
                  <HeadingOne data={this.NewsTitle1} /> 
-                
+                 <p><b>Semester 4</b></p>
+                <iframe src="https://vjcet.org/downloads/news/Notice3.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                 <p></p><br></br> 
+                 <p><b>Semester 6 and Semester 8</b></p>              
+                 <iframe src="https://vjcet.org/downloads/news/Notice2.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                 <p></p><br></br>
                   <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>     
                    
                 </div>

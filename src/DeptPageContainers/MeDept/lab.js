@@ -95,7 +95,7 @@ class Lab extends Component {
   };
   HydLabContent = {
     instanceID: "HydLabContent",
-    title: "The hydraulic machines lab consists of various types of pumps, turbines and hydraulic ram. The lab is provided with additional computer facility for improved learning experience. The lab is utilized by students of various branches."
+    title: "The lab consists of various equipment which describe the working and operation of hydraulic turbine, hydraulic pump, hydraulic compressor and hydraulic ram etc.. The lab is mainly utilized by students of the mechanical and civil engineering department."
   };
 
 
@@ -348,8 +348,8 @@ class Lab extends Component {
       	</tbody>
       </table>
 
-      <HeadingTwo data={this.HTLabHeading} />
-        <Bodythree data={this.HTLabContent} />
+      <HeadingTwo data={this.HydLabHeading} />
+        <Bodythree data={this.HydLabContent} />
         <table id="tableformat">
 	      <tbody>
 		      <tr>

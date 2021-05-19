@@ -138,11 +138,11 @@ class Header extends Component {
     link: "/iqac"
   };
 
-  /*Link13 = {
-    instanceID: "HeaderLink11",
-    title: "NISP",
-    link: "/nisp"
-  };*/
+  Link13 = {
+    instanceID: "HeaderLink13",
+    title: "KEAM Mock Test",
+    link: "/mockt"
+  };
   LineHeading = {
     instanceID: "LineHeading"
   };
@@ -162,8 +162,11 @@ class Header extends Component {
         <Line data={this.HeaderLineOne} />
         <Line data={this.HeaderLineTwo} />
         {/* <HeadingFour data={this.HeaderVJCCode} /> */}
-
+       
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
+        <Link to={this.Link13.link} id="Contactbtn">
+            KEAM Mock Test
+      </Link>
           <a href="https://admission.vjcet.ac.in/">
             <div id="AdmissionImage">
               <div className="animcontent">
@@ -175,7 +178,6 @@ class Header extends Component {
           <Link to={this.Link2.link} id="Contactbtn">
             Contact Us
           </Link>
-
         </div>
 
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">

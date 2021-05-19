@@ -47,7 +47,7 @@ class MEStaff extends Component {
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/ME/STAF/230.JPG",
-    width: "55%",
+    width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MESTF108" target="_blank" rel="noopener noreferrer">Mr. P.M. Saju</a>,
     content: "Trade Instructor"
   };

@@ -27,6 +27,11 @@ class Program extends Component {
     title:
       "•	Infrastructure facilities are excellent with well-equipped computer labs and classrooms."
   };
+  ProgramDescriptionFive = {
+    instanceID: "ProgramDescriptionFive",
+    title:
+      "•	The Department is accredited by NBA(National Board of Accreditation) on July 2018 for three years."
+  };
   render() {
     return (
       <div className="Program" id="program">
@@ -35,6 +40,7 @@ class Program extends Component {
         <Bodythree data={this.ProgramDescriptionTwo} />
         <Bodythree data={this.ProgramDescriptionThree} />
         <Bodythree data={this.ProgramDescriptionFour} />
+        <Bodythree data={this.ProgramDescriptionFive} />
       </div>
     );
   }

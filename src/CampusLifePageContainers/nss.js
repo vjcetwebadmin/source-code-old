@@ -293,14 +293,18 @@ class nss extends React.Component {
                             <tr><td>Mr. Sharone Varghese</td><td>Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
                             <tr><td>Ms. Sreeja S. Pillai</td><td>Associate Program Officer</td><td>2015-'16</td></tr>
                             <tr><td>Ms. Anitta Thomas</td><td>Associate Program Officer</td><td>2016-'17</td></tr>
-                            <tr><td>Mr. Shibu K R</td><td>Program Officer</td><td>2019-'20 onwards</td></tr>
-                            <tr><td>Ms. Jerin Jose</td><td>Associate Program Officer</td><td>2019-'20 onwards</td></tr>
+                            <tr><td>Mr. Shibu K R</td><td>Program Officer</td><td>2019-'20</td></tr>
+                            <tr><td>Ms. Jerin Jose</td><td>Associate Program Officer</td><td>2019-'20</td></tr>
+                            <tr><td>Mr. Aneesh Kurian</td><td>Program Officer</td><td>2020-'21 onwards</td></tr>
+                            <tr><td>Ms. Jerin Jose</td><td>Associate Program Officer</td><td>2020-'21  onwards</td></tr>
                         </table> 
                         <table id="tableformat">
                             <tr><th colspan="3"> Program officers / Associate Program Officers Unit-587</th></tr>
                             <tr><td>Mr. Jacob Mathai</td><td>Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
                             <tr><td>Ms. Vineetha Thankachan</td><td>Associate Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
                             <tr><td>Mr. Nibin B. </td><td>Program Officer</td><td>2016-'17 to 2019-'20</td></tr>
+                            <tr><td>Mr. Santhanu P Mohan</td><td>Program Officer</td><td>2020-'21 onwards</td></tr>
+                            <tr><td>Ms. Mary Nirmala George </td><td>Associate Program Officer</td><td>2020-'21  onwards</td></tr>
                         </table> 
                         <table id="tableformat">
                             <tr><th colspan="2"> Volunteer Secretary Unit-197</th></tr>
@@ -311,7 +315,10 @@ class nss extends React.Component {
                             <tr><td>Mr. George M. Roy</td><td>2018-'19</td></tr>
                             <tr><td>Ms. Lakshmipriya</td><td>2018-'19</td></tr>
                             <tr><td>Mr. Akash Satheesan</td><td>2019-'20</td></tr>
-                            <tr><td>Ms. Arya Vijayan</td><td>2019-'20</td></tr>                        </table> 
+                            <tr><td>Ms. Arya Vijayan</td><td>2019-'20</td></tr> 
+                            <tr><td>Mr. Sidharth T.S.</td><td>2020-'21</td></tr>
+                            <tr><td>Ms. Irene Meriyam Jos</td><td>2020-'21</td></tr>                            
+                            </table> 
                         <table id="tableformat">
                             <tr><th colspan="2"> Volunteer Secretary Unit-587</th></tr>
                             <tr><td>Mr. Balu M. N</td><td>2016-'17</td></tr>
@@ -321,7 +328,9 @@ class nss extends React.Component {
                             <tr><td>Mr. Jeevo Johnson</td><td>2018-'19</td></tr>
                             <tr><td>Ms. Sandra Rojas</td><td>2018-'19</td></tr>
                             <tr><td>Mr. Basil Sunny</td><td>2019-'20</td></tr>
-                            <tr><td>Ms. Arsha Paulose</td><td>2019-'20</td></tr>            
+                            <tr><td>Ms. Arsha Paulose</td><td>2019-'20</td></tr>
+                            <tr><td>Mr. Navin Joseph</td><td>2020-'21</td></tr>
+                            <tr><td>Ms. Megha Jomon</td><td>2020-'21</td></tr>          
                          </table> 
                         <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
                         <HeadingFour data={this.EventTitle1} className="Heading" />
